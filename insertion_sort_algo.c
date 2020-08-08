@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+#include<conio.h> //conio.h doesnt work on linux
 
 void print_array(int A[], int n);
 void print_array_algorithm_execution(int A[], int n, int i, int j, int key);
@@ -40,7 +40,7 @@ void main()
     //printf("-----------------------------\n");
     printf("printing the sorted values\n");
     print_array(A,n);
-    getch();
+    getch(); //doesnt work on linux
 }
 
 void print_array(int A[], int n)
